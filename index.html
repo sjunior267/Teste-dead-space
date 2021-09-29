@@ -23,14 +23,18 @@
                         <div id="inventario"></div>    
                     </div>
                 </div>
+                <div class="botao">
+                    <button class="button-jogar" type="button" id="btnLoot" onclick="loot()"disabled="false">Loot</button>
+                    <button class="button-jogar" type="button" id="btnJogar" onclick="jogar()" disabled="false">Jogar</button>
+                </div>
                 <div>
                     <div id="carta-maquina" class="carta"><img
                             src="https://www.alura.com.br/assets/img/imersoes/dev-2021/card-super-trunfo-transparent-ajustado.png"
                             style=" width: inherit; height: inherit; position: absolute;"></div>
                 </div>
+            
             </div>
-            <button class="button-jogar" type="button" id="btnLoot" onclick="loot()"disabled="false">Loot</button>
-            <button class="button-jogar" type="button" id="btnJogar" onclick="jogar()" disabled="false">Jogar</button>
+           
             <div id="resultado"></div>
         </form>
     </div>

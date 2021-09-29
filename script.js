@@ -106,7 +106,7 @@ function jogar() {
     document.getElementById("btnLoot").disabled = false;
   } else {
     elementoResultado.innerHTML = "<p class='resultado-final'>Empatou</p>" + "<a href='https://codepen.io/sjunior267/full/MWoPxKB'>Next Area</a>";
-    document.getElementById("btnJogar").disabled = true;
+    
     document.getElementById("btnLoot").disabled = false;
   }
   exibirCartaMaquina()
@@ -175,6 +175,8 @@ function mostraLoot(teste) {
 
 
   divCartaMaquina.innerHTML = moldura + tagHTML + "<p>" + inventario[teste].nome +"</p>"+ opcoesTexto + "</div>"
+  document.getElementById("btnJogar").disabled = false;
+  sortearCarta()
 }
 
 

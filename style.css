@@ -11,17 +11,15 @@ body {
 
 .container {
     text-align: center;
-    padding: 20px;
+    margin-top: 10px;
 }
-
-.page-title {
-    color: #ffffff;
-    margin: 5px 0;
+.botao{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
-
 button, .button-jogar {
     padding: .8rem 1.5rem;
-    margin: 1rem 0;
     border-radius: 5px;
     border: none;
     font-size: 1rem;
@@ -29,6 +27,7 @@ button, .button-jogar {
 
 h2 {
     color: white;
+
 }
 
 #carta-jogador, #carta-maquina {
