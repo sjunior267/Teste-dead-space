@@ -1,0 +1,13 @@
+body{
+    background-color: black;
+    background-image: url("https://i.gifer.com/3rf.gif");
+    background-repeat: no-repeat;
+   background-position: center;
+   background-size: 320px 350px;
+}
+.morte {
+    align-items: center;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
